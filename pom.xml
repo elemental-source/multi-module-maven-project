@@ -8,8 +8,9 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>infra-util</module>
+        <module>infra-mapper</module>
         <module>register-service</module>
-        <module>infra-service</module>
         <module>business-service</module>
         <module>frontend-service</module>
     </modules>
