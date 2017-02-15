@@ -16,7 +16,7 @@ mvn archetype:generate
 mvn archetype:generate -DgroupId=org.elementalsource.register -DartifactId=register-service -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
-## Commands
+## Commands to update your project
 - `mvn versions:set -DgenerateBackupPoms=false -DnewVersion=your_new_version`
 - `mvn -N versions:update-child-modules`
 - `mvn versions:display-dependency-updates`
