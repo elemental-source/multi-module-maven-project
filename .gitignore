@@ -23,6 +23,7 @@
 ######################
 target/
 .mvn/
+**/pom.xml.versionsBackup
 
 ######################
 # Angular
