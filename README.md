@@ -24,5 +24,6 @@ mvn archetype:generate -DgroupId=org.elementalsource.register -DartifactId=regis
 - `mvn versions:commit`
 
 ## References
-- https://dzone.com/articles/why-i-never-use-maven-release
+- http://www.mojohaus.org/versions-maven-plugin/use-latest-versions-mojo.html
 - http://www.mojohaus.org/versions-maven-plugin/examples/update-child-modules.html
+- https://dzone.com/articles/why-i-never-use-maven-release
