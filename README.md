@@ -15,3 +15,14 @@ mvn archetype:generate
 ```
 mvn archetype:generate -DgroupId=org.elementalsource.register -DartifactId=register-service -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
+
+## Commands
+- `mvn versions:set -DgenerateBackupPoms=false -DnewVersion=your_new_version`
+- `mvn -N versions:update-child-modules`
+- `mvn versions:display-dependency-updates`
+- `mvn versions:use-latest-versions`
+- `mvn versions:commit`
+
+## References
+- https://dzone.com/articles/why-i-never-use-maven-release
+- http://www.mojohaus.org/versions-maven-plugin/examples/update-child-modules.html
