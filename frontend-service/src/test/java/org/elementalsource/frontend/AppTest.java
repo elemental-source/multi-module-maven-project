@@ -1,4 +1,4 @@
-package org.elementalsource.infra;
+package org.elementalsource.frontend;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

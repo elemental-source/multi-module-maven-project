@@ -11,10 +11,7 @@ mvn archetype:generate
   -DarchetypeArtifactId=maven-archetype-quickstart
   -DinteractiveMode=false
 ```
-### Examples
+### Example
 ```
-mvn archetype:generate -DgroupId=org.elementalsource.register -DartifactId=register-service -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false &
-mvn archetype:generate -DgroupId=org.elementalsource.infra    -DartifactId=infra-service    -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false &
-mvn archetype:generate -DgroupId=org.elementalsource.business -DartifactId=business-service -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false &
-mvn archetype:generate -DgroupId=org.elementalsourcefrontend  -DartifactId=frontend-service -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false &
+mvn archetype:generate -DgroupId=org.elementalsource.register -DartifactId=register-service -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```

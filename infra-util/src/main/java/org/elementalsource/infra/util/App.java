@@ -1,4 +1,4 @@
-package org.elementalsourcefrontend;
+package org.elementalsource.infra.util;
 
 /**
  * Hello world!
