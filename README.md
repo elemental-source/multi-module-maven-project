@@ -22,6 +22,7 @@ mvn archetype:generate -DgroupId=org.elementalsource.register -DartifactId=regis
 - `mvn versions:display-dependency-updates`
 - `mvn versions:use-latest-versions`
 - `mvn versions:commit`
+- `mvn versions:display-dependency-updates` Displays all dependencies that have newer versions available
 
 ## References
 - http://www.mojohaus.org/versions-maven-plugin/use-latest-versions-mojo.html
